@@ -1,0 +1,95 @@
+html, body {
+  background-color: #1f1f1f;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 24px;
+}
+
+/* Navigation Section */
+ul {
+  list-style-type: none;
+  margin: auto;
+
+  width: 80%;
+  top: 20px;
+  left: 10%;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  background-color: #454545;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #111111;
+}
+
+li {
+  float: left;
+  width: 33%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* End Section */
+
+.parcont {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.titlebox {
+  background-color: #454545;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px #111111;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #454545;
+  border-radius: 10px;
+  border: 6px solid transparent;
+  background-clip: content-content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #383838;
+}
+
+.heading1 {
+  color: orange;
+  font-weight: 700;
+  font-size: 56px;
+}
+.heading2 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+}
+.text1 {
+  background-color: #454545;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px #111111;
+}
