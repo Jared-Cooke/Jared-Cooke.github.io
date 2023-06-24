@@ -1,0 +1,125 @@
+html, body {
+  background-color: #1f1f1f;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 24px;
+}
+
+/* Navigation Section */
+.nav-bar {
+  list-style-type: none;
+  margin: auto;
+  top: 20px;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  background-color: #454545;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #111111;
+}
+
+.nav-bar li {
+  float: left;
+  width: 33%;
+}
+
+.nav-bar li:hover {
+  content: attr(data-description);
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff
+  padding: 10px;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.hoverable:hover::after {
+  content: attr(data-description);
+  display: block;
+  position: absolute;
+  padding: 10px;
+}
+
+/* End Section */
+
+.parcont {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.titlebox {
+  background-color: #454545;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px #111111;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #454545;
+  border-radius: 10px;
+  border: 6px solid transparent;
+  background-clip: content-content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #383838;
+}
+
+.heading1 {
+  color: orange;
+  font-weight: 700;
+  font-size: 56px;
+}
+.heading2 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+}
+.text1 {
+  background-color: #454545;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px #111111;
+}
+
+.sidebar {
+  background-color: #454545;
+  width: 20%;
+
+}
